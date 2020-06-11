@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    /* border: 3px solid black; */
+
+    height: 100%;
+}
+
+.container.background {
+    background-image: url('http://web.archive.org/web/20200610102604im_/https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    height: 70px;
+    /* border: 1px solid grey; */
+    padding-top: 10px;
+    position: relative;
+}
+
+.logo {
+    margin-right: 60px;
+    float: left;
+}
+
+.logo img {
+    width: 80px;
+}
+
+.main-menu {
+    margin-top: 6px;
+    float: left;
+}
+
+.main-menu li, .item {
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    font-family: 'Montserrat' , sans-serif;
+    margin-right: 6px;
+}
+
+
+.button {
+    /* width: 80px;
+    /* height; */
+    background-color: yellowgreen;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: 'Montserrat' , sans-serif;
+    padding: 4px 6px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.call-to-action li {
+    display: inline-block;
+}
+
+.call-to-action {
+    /* float: right; */
+    position: absolute;
+    top: 14px;
+    right: 0;
+    /* border: 1px solid black; */
+}
+
+.call-to-action .login  button {
+    background-color: transparent;
+}
+
+.call-to-action .login {
+    margin-right: 6px;
+    margin-left: 6px;
+}
+
+.banner {
+    height: 330px;
+}
+
+.testo-banner {
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid white; */
+    color: white;
+    position: relative;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.title {
+    position: absolute;
+    top: 30%;
+}
+
+.title h1 {
+    margin-bottom: 20px;
+}
+
+.banner button {
+    padding: 18px 12px;
+    font-size: 12px;
+    border: none;
+}
+
+
+
+.blue {
+    height: 400px;
+    background-color: #0c325a;
+}
+
+.grey {
+    height: 100px;
+    background-color: #d3d3d3;
+}
+
+.white {
+    height: 400px;
+    background-color: white;
+}
+
+.box {
+    width: 33.33%;
+    height: 100%;
+    border: 1px solid black;
+    float: left;
+}
