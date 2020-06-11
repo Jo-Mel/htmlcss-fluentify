@@ -20,20 +20,17 @@
     height: 100%;
 }
 
-.container.background {
-    background-image: url('http://web.archive.org/web/20200610102604im_/https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 nav {
     height: 70px;
+    line-height: 50px;
     /* border: 1px solid grey; */
-    padding-top: 10px;
+    /* padding-top: 10px; */
     position: relative;
+
 }
 
 .logo {
+    padding-top: 8px;
     margin-right: 60px;
     float: left;
 }
@@ -43,7 +40,7 @@ nav {
 }
 
 .main-menu {
-    margin-top: 6px;
+    /* margin-top: 6px; */
     float: left;
 }
 
@@ -54,7 +51,8 @@ nav {
     font-size: 10px;
     letter-spacing: 0.2px;
     font-family: 'Montserrat' , sans-serif;
-    margin-right: 6px;
+    /* margin-right: 6px; */
+    padding: 0 6px;
 }
 
 
@@ -76,10 +74,10 @@ nav {
 }
 
 .call-to-action {
-    /* float: right; */
-    position: absolute;
+    float: right;
+    /* position: absolute;
     top: 14px;
-    right: 0;
+    right: 0; */
     /* border: 1px solid black; */
 }
 
@@ -94,6 +92,10 @@ nav {
 
 .banner {
     height: 330px;
+    background-image: url('http://web.archive.org/web/20200610102604im_/https://www.fluentify.com/bundles/fluentifypublic/images/r4b/01/oldman.png');
+    background-size: 800px 300px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
 }
 
 .testo-banner {
@@ -108,6 +110,7 @@ nav {
 .title {
     position: absolute;
     top: 30%;
+    transform: translateY(-30%);
 }
 
 .title h1 {
@@ -119,8 +122,6 @@ nav {
     font-size: 12px;
     border: none;
 }
-
-
 
 .blue {
     height: 400px;
